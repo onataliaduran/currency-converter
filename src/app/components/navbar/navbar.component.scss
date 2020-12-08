@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1.5em 3em;
+
+    &__logo {
+        color: #000;
+        font-size: 1.5em; 
+        font-weight: 600;
+        text-decoration: none;  
+    }
+
+    &__navbarLinks {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 15vw;
+
+        li {
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
